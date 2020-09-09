@@ -19,8 +19,6 @@ public class GetPropertyList {
 		driver = BrowserFactory.startBrowser(driver, "Chrome", "https://www.nobroker.in/");
 		
 		System.out.println(driver.getTitle());
-		
-		
 	}
 	
 
