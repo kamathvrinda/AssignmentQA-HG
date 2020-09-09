@@ -1,9 +1,18 @@
 package com.assignment.pages;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.FindBy;
+
 public class HomePage {
 	
-	public static void main() {
-		System.out.println("hello");
+	WebDriver driver;
+
+	public HomePage(WebDriver ldriver) {
+		this.driver = ldriver;
 	}
+	
+//	@FindBy()
+	
+	
 
 }
