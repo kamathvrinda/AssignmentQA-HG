@@ -5,7 +5,11 @@
     <classes>
       <class name="com.assignment.testcases.GetPropertyList">
         <methods>
-          <include name="startBrowser"/>
+          <include name="setUpSuite"/>
+          <include name="selectRequiredProductType"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- com.assignment.testcases.GetPropertyList -->
     </classes>

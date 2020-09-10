@@ -3,23 +3,25 @@
  */
 package com.assignment.testcases;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-import com.assignment.utility.BrowserFactory;
+import com.assignment.pages.BaseClass;
+import com.assignment.pages.HomePage;
 
 /**
  * @author Vrinda Kamath
  *
  */
-public class GetPropertyList {
-	WebDriver driver;
-	@Test
-	public void startBrowser() {
-		driver = BrowserFactory.startBrowser(driver, "Chrome", "https://www.nobroker.in/");
-		
-		System.out.println(driver.getTitle());
-	}
+public class GetPropertyList extends BaseClass {
 	
+
+	@Test
+	public void selectRequiredProductType() throws InterruptedException {
+		HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+				
+		
+		
+	}
 
 }

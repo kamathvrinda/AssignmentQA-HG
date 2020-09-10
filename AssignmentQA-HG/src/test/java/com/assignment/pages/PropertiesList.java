@@ -8,5 +8,6 @@ package com.assignment.pages;
  *
  */
 public class PropertiesList {
-
+	
+	
 }
