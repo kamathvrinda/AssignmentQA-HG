@@ -35,11 +35,11 @@ public class BaseClass {
 		BrowserFactory.quitBrowser(driver);
 	}
 
-	@AfterMethod
-	public void tearDownMethod(ITestResult result) {
-		if(result.getStatus() == ITestResult.FAILURE) {
-			Helper.CaptureScreenshot(driver);
-		}
-		
-	}
+//	@AfterMethod
+//	public void tearDownMethod(ITestResult result) {
+//		if(result.getStatus() == ITestResult.FAILURE) {
+//			Helper.CaptureScreenshot(driver);
+//		}
+//		
+//	}
 }

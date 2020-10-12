@@ -20,6 +20,13 @@ public class GetPropertyList extends BaseClass {
 	public void selectRequiredProductType() throws InterruptedException {
 		HomePage homePage = PageFactory.initElements(driver, HomePage.class);
 				
+//		homePage.selectProductType("Buy");
+//		homePage.selectDropDown();
+		homePage.selectFromPlace("Mumbai");
+//		homePage.searchClickBtn();
+		
+		Thread.sleep(4000);
+		
 		
 		
 	}
